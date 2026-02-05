@@ -10,39 +10,71 @@
   <header class="container header" style="padding:36px 0 18px;">
     <div class="badge">Project</div>
     <h1 style="font-size:34px;">Connect Four - Client Server Game</h1>
-    <p class="subtitle">Turn-based multiplayer game with server-side logic.</p>
+    <p class="subtitle">Turn-based client-server game with clean server-side logic.</p>
+
+    <div class="mini">
+      <span>Type: Client-Server</span><span class="dot">•</span>
+      <span>Focus: Game Logic</span><span class="dot">•</span>
+      <span>Year: 2025</span>
+    </div>
+
     <div class="cta">
-      <a class="btn" href="../index.html">Home</a>
+      <a class="btn primary" href="../index.html">Back to Home</a>
       <a class="btn" href="https://github.com/danku2001/four-in-a-row" target="_blank" rel="noreferrer">Repo</a>
     </div>
   </header>
 
   <main class="container">
     <section class="section" style="border-top:0;">
-      <div class="card">
-        <h3>Overview</h3>
-        <p class="muted">
-          A client-server implementation of the classic Connect Four game,
-          focusing on clean logic and stable communication.
-        </p>
+      <div class="grid two">
 
-        <h3 style="margin-top:18px;">What I Built</h3>
-        <ul class="list">
-          <li>Server-side game logic including turn handling and win detection.</li>
-          <li>Client interface with responsive UI.</li>
-          <li>Validation of moves and game state synchronization.</li>
-        </ul>
-
-        <h3 style="margin-top:18px;">Tech Stack</h3>
-        <div class="tags">
-          <span>Node.js</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+        <div class="card">
+          <div class="card-top">
+            <h3>Overview</h3>
+            <span class="pill">System</span>
+          </div>
+          <p class="muted">
+            A client-server implementation of the classic Connect Four game, built to keep the codebase clean,
+            the rules consistent, and the gameplay stable.
+          </p>
         </div>
 
-        <h3 style="margin-top:18px;">Highlights</h3>
-        <ul class="list">
-          <li>Clear separation between client and server responsibilities.</li>
-          <li>Focus on maintainable, readable code.</li>
-        </ul>
+        <div class="card">
+          <div class="card-top">
+            <h3>Tech Stack</h3>
+            <span class="pill">Tools</span>
+          </div>
+          <div class="tags">
+            <span>Node.js</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+          </div>
+          <p class="muted" style="margin-top:10px;">
+            Emphasis on clear separation of client UI and server game-state management.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <h3>What I Built</h3>
+            <span class="pill">Scope</span>
+          </div>
+          <ul class="list">
+            <li>Server-side game state, turn handling, and move validation.</li>
+            <li>Win detection logic (rows, columns, diagonals) and state synchronization.</li>
+            <li>Client UI for smooth turns and consistent game flow.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <h3>Highlights</h3>
+            <span class="pill">Impact</span>
+          </div>
+          <ul class="list">
+            <li>Deterministic rule handling to prevent invalid states.</li>
+            <li>Readable code structure that’s easy to extend with features.</li>
+          </ul>
+        </div>
+
       </div>
     </section>
   </main>
