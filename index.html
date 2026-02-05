@@ -4,9 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dan Kuenkas | Portfolio</title>
-  <meta name="description" content="Portfolio - projects, experience, and contact." />
+  <meta name="description" content="Backend & Full-Stack Developer Portfolio" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="container header">
     <div class="badge">Computer Science Student</div>
@@ -14,91 +15,156 @@
     <p class="subtitle">Backend & Full-Stack Developer | NOC Student</p>
 
     <div class="cta">
-      <a class="btn primary" href="assets/Dan_Kuenkas_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
       <a class="btn" href="https://github.com/danku2001" target="_blank" rel="noreferrer">GitHub</a>
       <a class="btn" href="https://www.linkedin.com/in/dan-kuenkas-b74833318/" target="_blank" rel="noreferrer">LinkedIn</a>
     </div>
 
     <div class="mini">
-      <span>📍 Israel</span><span class="dot">•</span>
-      <a href="mailto:danku2001@gmail.com">danku2001@gmail.com</a><span class="dot">•</span>
-      <a href="tel:+972526961414">+972-52-6961414</a>
+      <span>📍 Israel</span>
+      <span class="dot">•</span>
+      <a href="mailto:danku2001@gmail.com">danku2001@gmail.com</a>
     </div>
   </header>
 
   <main class="container">
+
+    <!-- ABOUT -->
     <section class="section">
       <h2>About</h2>
       <p class="muted">
         I build backend and full-stack systems with a focus on clean architecture and practical problem-solving.
-        I currently work as a NOC student, gaining hands-on experience with monitoring, incidents, and production reliability.
+        Currently working as a NOC student, gaining hands-on experience with production monitoring,
+        incident handling, and system reliability.
       </p>
     </section>
 
+    <!-- PROJECTS -->
     <section class="section">
       <div class="section-head">
-        <h2>Highlighted Projects</h2>
-        <a class="link" href="projects.html">View all projects</a>
+        <h2>Projects</h2>
       </div>
 
       <div class="grid">
+
         <article class="card">
-          <div class="card-top">
-            <h3>Campus Sensors & Shading System</h3>
-            <span class="pill">Full-Stack</span>
+          <h3>Campus Sensors & Shading System</h3>
+          <p class="muted">
+            Full-stack web system for managing campus areas and sensors.
+          </p>
+          <div class="tags">
+            <span>Node.js</span><span>REST APIs</span><span>React</span><span>MySQL</span>
           </div>
-          <p class="muted">Full-stack system for managing campus areas and sensors with a MySQL-backed backend.</p>
-          <div class="tags"><span>Node.js</span><span>REST</span><span>React</span><span>MySQL</span></div>
           <div class="links">
-            <a href="projects/campus.html">Details</a>
-            <a href="https://github.com/danku2001/campus-sensors-system" target="_blank" rel="noreferrer">Repo</a>
+            <a href="projects/campus.html">View Project</a>
           </div>
         </article>
 
         <article class="card">
-          <div class="card-top">
-            <h3>GenAI for Computer Vision</h3>
-            <span class="pill">AI</span>
+          <h3>Generative AI for Computer Vision</h3>
+          <p class="muted">
+            Image classification with fine-tuned deep learning models.
+          </p>
+          <div class="tags">
+            <span>Python</span><span>Deep Learning</span><span>Image Classification</span>
           </div>
-          <p class="muted">Image classification with fine-tuning of pre-trained models; synthetic vs real dataset comparison.</p>
-          <div class="tags"><span>CV</span><span>Fine-tuning</span><span>Evaluation</span></div>
           <div class="links">
-            <a href="projects/genai.html">Details</a>
-            <a href="https://github.com/danku2001/GenAI-Project" target="_blank" rel="noreferrer">Repo</a>
+            <a href="projects/genai.html">View Project</a>
           </div>
         </article>
 
         <article class="card">
-          <div class="card-top">
-            <h3>NOC Student Experience</h3>
-            <span class="pill">Production</span>
+          <h3>Connect Four (Client-Server)</h3>
+          <p class="muted">
+            Turn-based client-server game with server-side logic.
+          </p>
+          <div class="tags">
+            <span>Node.js</span><span>JavaScript</span><span>Client-Server</span>
           </div>
-          <p class="muted">Monitoring, incident handling, troubleshooting with logs, alerts, dashboards in real environments.</p>
-          <div class="tags"><span>Monitoring</span><span>Incidents</span><span>Reliability</span></div>
           <div class="links">
-            <a href="experience.html">Details</a>
+            <a href="projects/connect4.html">View Project</a>
           </div>
         </article>
+
+        <article class="card">
+          <h3>Titanic Machine Learning</h3>
+          <p class="muted">
+            Supervised learning project covering preprocessing and evaluation.
+          </p>
+          <div class="tags">
+            <span>Python</span><span>Pandas</span><span>Scikit-learn</span>
+          </div>
+          <div class="links">
+            <a href="projects/titanic.html">View Project</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Store Network System</h3>
+          <p class="muted">
+            Academic Java client-server system focusing on backend structure.
+          </p>
+          <div class="tags">
+            <span>Java</span><span>OOP</span><span>Client-Server</span>
+          </div>
+          <div class="links">
+            <a href="projects/store.html">View Project</a>
+          </div>
+        </article>
+
       </div>
     </section>
 
+    <!-- EXPERIENCE -->
+    <section class="section">
+      <h2>Experience</h2>
+
+      <div class="card">
+        <div class="card-top">
+          <h3>NOC Student</h3>
+          <span class="pill">Production</span>
+        </div>
+        <ul class="list">
+          <li>Monitor production systems and infrastructure in real time.</li>
+          <li>Identify, troubleshoot, and escalate incidents and service disruptions.</li>
+          <li>Work with logs, alerts, dashboards, and monitoring tools under time pressure.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
     <section class="section">
       <h2>Skills</h2>
       <div class="skills">
-        <div><h4>Languages</h4><p class="muted">Java, JavaScript, Python, C, C++</p></div>
-        <div><h4>Backend & Full-Stack</h4><p class="muted">Node.js, REST APIs, Client-Server Architecture, React</p></div>
-        <div><h4>Databases</h4><p class="muted">MySQL</p></div>
-        <div><h4>Data & AI</h4><p class="muted">Scikit-learn, Pandas, Image Classification (project experience)</p></div>
+        <div>
+          <h4>Languages</h4>
+          <p class="muted">Java, JavaScript, Python, C, C++</p>
+        </div>
+        <div>
+          <h4>Backend & Full-Stack</h4>
+          <p class="muted">Node.js, REST APIs, Client-Server Architecture, React</p>
+        </div>
+        <div>
+          <h4>Databases</h4>
+          <p class="muted">MySQL</p>
+        </div>
+        <div>
+          <h4>Data & AI</h4>
+          <p class="muted">Scikit-learn, Pandas, Image Classification (project experience)</p>
+        </div>
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section class="section">
       <h2>Contact</h2>
       <p class="muted">
-        Email: <a href="mailto:danku2001@gmail.com">danku2001@gmail.com</a> |
-        LinkedIn: <a href="https://www.linkedin.com/in/dan-kuenkas-b74833318/" target="_blank" rel="noreferrer">Profile</a>
+        Want to talk? Email me at
+        <a href="mailto:danku2001@gmail.com">danku2001@gmail.com</a>
+        or reach me on
+        <a href="https://www.linkedin.com/in/dan-kuenkas-b74833318/" target="_blank" rel="noreferrer">LinkedIn</a>.
       </p>
     </section>
+
   </main>
 
   <footer class="container footer">
